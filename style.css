@@ -543,7 +543,104 @@ a{
     overflow: hidden;
     background: #fff;
 }
+/* end  */
+.about_part-last{
+    display: flex;
+    width: 100%;
+    height: 900px;
+    margin: 0 auto;
+  
+    
+}
 
+.submet_cv{
+    /* position: relative; */
+    width: 40%;
+   
+    background: #DC965A;
+    background-size: 100px;
+    
+}
+.text_cv{
+    background: #cec7c7;
+    width: 100%;
+    height: 506px;
+    margin: 124px 112px;
+    border: 10px solid rgb(204, 199, 199);
+}
+.text_cv h2{
+    position: relative;
+    top: 30px;
+    left: 27px;
+}
+.input_text{
+    background: #FFFFFF;
+    width: 480px;
+    height: 407px;
+    position: relative;
+    top: 41px;
+    left: 28px;
+}
+.text_cv hr{
+    width: 40px;
+    height: 2px;
+    /* margin: 0 auto; */
+    background: chocolate;
+    position: relative;
+    top: 30px;
+    left: 27px;
+
+}
+.input_text input{
+    width: 193px;
+    height: 30px;
+    position: relative;
+    left: 40px;
+    top: 60px;
+}
+#text{
+    width: 394px;
+    height: 50px;
+    position: relative;
+    left: 40px;
+    top: 92px;
+}
+.input_text textarea{
+    width: 396px;
+    height: 77px;
+    position: relative;
+    left:41px;
+    top: 118px;
+}
+.input_text button{
+    width: 211px;
+    height: 50px;
+    position: relative;
+    left: 41px;
+    top: 147px;
+    background: #DB955A;
+    cursor: pointer;
+}
+button:hover{
+    background: #090a0c;
+    color: white;
+}
+.about_content_last{
+
+        display: inline-block;
+        position: relative;
+        text-align: start;
+        top: 200px;
+        left: 190px;
+        height: 220px;
+}
+.Contact_us{
+    /* display: grid; */
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+    /* grid-template-columns: 1fr; */
+}
+/* cv part end  */
+    
 /* part 8 start  */
 .footer{
     display: grid;
